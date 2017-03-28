@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+    background-image: url('../images/icecream.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+    
+    
+    
+}
+
+/*******Nav Bar*******/
+.main-nav{
+    height: 60px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    
+}
+
+.container{
+    max-width: 90%;
+    margin: 0 auto;
+    
+}
+
+.logo{
+    height: 60px;
+}
+
+.nav-list{
+    float: right;
+    list-style: none;
+}
+
+.nav-item{
+    float: left;
+    margin-left: 15px;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-link:hover{
+    color: limegreen;
+}
+
+.active{
+    color: #fbf099;
+}
+
+/*******Home Styles*******/
+
+.home-header{
+   width: 50%;
+    float: right;
+    margin-top: 60px;
+    text-align: center;
+    font-family: 'Fascinate Inline', cursive;
+    font-size: 80px;
+    color: #f9f9ac;
+}
+
+
+.home-paragraph{
+    border: 5px solid #fff;
+    margin-top: 300px;
+    width: 50%;
+    float: right;
+    background-color: #ffb6c1;
+    font-family: 'Cookie', cursive;
+    font-size: 25px;
+}
+
+/*******Footer*******/
+footer{
+    border: 5px solid #fff;
+    background-color: #f98ea0;
+    height: 150px;
+    text-align: center;
+}
+
+.social-links{
+    text-decoration: none;
+}
+
+.social-links > .fa{
+    color: #ff3593;
+    font-size: 50px;
+    text-align: center;
+}
+
+.social-links > .fa:hover{
+    color: #000;
+}
+
+/*******About Styles*******/
+
+.about-header{
+    font-size: 80px;
+    color:#f9f9ac;
+    text-align: center;
+    font-family: 'Fascinate Inline', cursive;
+}
+
+/*******Columns*******/
+section{
+    height: 700px;
+}
+
+.column{
+    width: 30%;
+    height: 750px;
+    float: left;
+    margin-left: 25px;
+    text-align: center;
+    border: 5px solid #fff;
+    margin-top: 25px;
+    background-color: #ffb6c1;
+    font-family: 'Cookie', cursive;
+    font-size:22px;
+}
+
+.column-img{
+    height: 150px;
+    margin-top: 20px;
